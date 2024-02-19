@@ -1,0 +1,126 @@
+* {
+    font-family: monospace; /* for aesthetic reasons */
+}
+
+
+header {
+    background-color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+.company-name {
+    justify-self: right;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+}
+
+nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none; /* I don't want the underline*/
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    margin: 20px;
+    background-color: #ddd;
+}
+
+.shop-now button {
+    background-color: #4CAF50;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 20px;
+    border-color: transparent;
+    color: white;
+}
+
+.shop-now button:hover {
+    background-color: #45A049;
+}
+
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
+
+/* additional styling for products.html:  still need responsive design */
+
+.product-list {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-list tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-list .product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.product-list .product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-list .product .price {
+    color: #007bff;
+}
+
+.product-list .product:hover{
+    background-color: #fff;
+}
+
+.product-list .product button {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border-color: transparent;
+}
+
+.product-list .product button:hover {
+    background-color: #45A049;
+}
