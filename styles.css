@@ -1,5 +1,5 @@
 * {
-    font-family: monospace; /* for aesthetic reasons */
+    font-family: Arial; /* for aesthetic reasons */
 }
 
 
@@ -9,6 +9,7 @@ header {
     padding: 20px;
     display: flex; /*Was supposed to use flexbox I think?*/
     justify-content: space-between;
+    align-items: center;
     color: white;
 }
 
