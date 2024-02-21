@@ -77,7 +77,27 @@ footer p {
     color: white;
 }
 
-/* additional styling for products.html:  still need responsive design */
+/* additional styling for products.html and responsive design: */
+
+@media screen and (max-width: 760px) {
+    .product-list tr {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 15px;
+        justify-content: center;
+    }
+
+    header img {
+        width: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
 
 .product-list {
     background-color: #ddd;
