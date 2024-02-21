@@ -168,10 +168,10 @@ footer p {
     border-radius: 10px;
 }
 
-.contact-info .contact-method a:link{
+.contact-info .contact-method a[name="social-media"]:link  {
     text-decoration: none;
 }
-.contact-info .contact-method a:hover{
+.contact-info .contact-method a[name="social-media"]:hover {
     color: #007BFF;
 }
 
