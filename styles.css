@@ -1,23 +1,21 @@
 * {
-    font-family: Arial; /* for aesthetic reasons */
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 header {
     background-color: #333;
     margin: 0;
     padding: 20px;
-    display: flex; /*Was supposed to use flexbox I think?*/
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     color: white;
 }
 
 
-
-.company-name {
+/* .company-name {
     justify-self: right;
-}
+} */
 
 
 nav {
